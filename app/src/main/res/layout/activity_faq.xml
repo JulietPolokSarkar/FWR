@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fwr.fwr.faq">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/article_subheading"
+                android:layout_width="409dp"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:gravity="center"
+                android:textColor="@color/green"
+                android:text="FAQ"
+                android:layout_marginBottom="10dp"
+                android:textAppearance="@android:style/TextAppearance" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:text="What is FWR?"
+                android:textSize="25dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/yellow"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:text="“Food Wastage Reduction” is a food recovery and food waste management network that helps connect the individuals and businesses with excess food to people in need. We approach the issue of hunger with a sharing-economy model: the donation of excess food enables a vital, yet often wasted, resource to be used to its full capacity. FWR is an edible food Recovery Project which serves the surplus excess foods from Weddings, Parties , and other events, to the hungry and deprived. "
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:layout_marginTop="10dp"
+                android:text="How are we different from other food recovery organizations?"
+                android:textSize="25dp"
+                android:textColor="@color/yellow"
+                android:layout_margin="10dp"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:text="Our use of technology makes FWR unique. We are able to provide our services on-demand"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
+                android:text="Why is food recovery important?"
+                android:textSize="25dp"
+                android:textColor="@color/yellow"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:text="Throwing away food benefits no one. Not only could the food have gone to someone in need, but the resource cost is tremendous: one-fifth of greenhouse gases come from meat production, and it takes over ten gallons of water to produce a single slice of bread. Our platform simplifies the process of food recovery, so Donors can make social, environmental and financial change in their choice to Feed the Need."
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:text="Just because it’s easier doesn’t mean it’s better! There are tons of people out there in need of a meal, and by giving to them rather than the trashcan, you are building up some major good karma. On top of that, you’ll be improving the environment and providing people with meaningful work: it’s an easy way for corporate and businesses to give back to their community."
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
+                android:text="What kind of food do we accept?"
+                android:textSize="25dp"
+                android:textColor="@color/yellow"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:text="We accept any kind of food, we just need to know details concerning food type, like if its raw or cooked, packaged, hot or cold, and how much there is. "
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"/>
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

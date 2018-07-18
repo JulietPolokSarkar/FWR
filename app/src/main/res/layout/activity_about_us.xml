@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context="com.example.fwr.fwr.About_us">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/article_subheading"
+                android:layout_width="411dp"
+                android:layout_height="wrap_content"
+                android:text="About"
+                android:gravity="center"
+                android:textColor="@color/deeppurple"
+                android:textSize="40dp"
+                android:textAppearance="@android:style/TextAppearance" />
+
+            <TextView
+                android:id="@+id/article"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:layout_margin="10dp"
+                android:textColor="#ffff"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30px"
+                android:text="Food waste is like climate change. A complex problem that is difficult to to solve part way. Our mission is to end food waste and hunger to make our country hunger free. We’re planning on creating an app that will recover surplus food from restaurants, weddings, parties and functions and donate it to needy and hungry people. It’ll provide an online based solution allowing excess food to be donated from the food service industry to qualified charities that work with the needy. The user can share the food to available registered trusted Charity. User can find Charities near to the location and can deliver them self, user will get the root map assistance to charity which will easy to reach the location. Otherwise all the user need to do is to upload the food images in the app and immediately all the volunteers will get notification and will contact user to pick up the food and serve to charity, the user can also track the status of food up to delivery. Those who ready to act as a volunteer can register as a volunteer in the app itself and can collect food from different donors and serve to Charity." />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
